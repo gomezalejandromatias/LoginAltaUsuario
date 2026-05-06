@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|c:\\users\\pc\\source\\repos\\loginaltausuario\\loginaltausuario\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|solutionrelative:loginaltausuario\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|c:\\users\\pc\\source\\repos\\loginaltausuario\\loginaltausuario\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|solutionrelative:loginaltausuario\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|c:\\users\\pc\\source\\repos\\loginaltausuario\\loginaltausuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|solutionrelative:loginaltausuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|c:\\users\\pc\\source\\repos\\loginaltausuario\\loginaltausuario\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3866EB0-ED83-43E3-9548-A74D9AB9C880}|LoginAltaUsuario\\LoginAltaUsuario.csproj|solutionrelative:loginaltausuario\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "LoginAltaUsuario\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\Login.aspx.cs",
+              "RelativeToolTip": "LoginAltaUsuario\\Login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:29:31.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "LoginAltaUsuario\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\AccesoDatos.cs",
+              "RelativeToolTip": "LoginAltaUsuario\\AccesoDatos.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T20:26:31.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\Usuario.cs",
+              "RelativeDocumentMoniker": "LoginAltaUsuario\\Usuario.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\Usuario.cs",
+              "RelativeToolTip": "LoginAltaUsuario\\Usuario.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:49:57.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\Login.aspx",
+              "RelativeDocumentMoniker": "LoginAltaUsuario\\Login.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\LoginAltaUsuario\\LoginAltaUsuario\\Login.aspx",
+              "RelativeToolTip": "LoginAltaUsuario\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-06T19:43:12.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

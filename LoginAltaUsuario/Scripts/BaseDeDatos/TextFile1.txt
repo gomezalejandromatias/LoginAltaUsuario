@@ -1,0 +1,18 @@
+﻿
+create database LoginBD
+GO
+
+USE LoginBD
+GO
+
+--asi agrego tablas --
+ALTER TABLE Usuarios
+ADD Nombre VARCHAR(50),
+    Email VARCHAR(100)
+
+CREATE TABLE  Usuarios
+(    Id INT PRIMARY KEY IDENTITY,
+    NombreUsuario VARCHAR(50),
+    Password VARCHAR(50),
+    TipoUsuario INT
+)
