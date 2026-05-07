@@ -11,26 +11,8 @@ namespace LoginAltaUsuario
 {
 
 
-    public partial class Login
+    public partial class RegistroUsuario
     {
-
-        /// <summary>
-        /// Control form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Control txtNombre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombre;
 
         /// <summary>
         /// Control txtUsuario.
@@ -42,15 +24,6 @@ namespace LoginAltaUsuario
         protected global::System.Web.UI.WebControls.TextBox txtUsuario;
 
         /// <summary>
-        /// Control txtEmail.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
-
-        /// <summary>
         /// Control txtContraseña.
         /// </summary>
         /// <remarks>
@@ -60,12 +33,12 @@ namespace LoginAltaUsuario
         protected global::System.Web.UI.WebControls.TextBox txtContraseña;
 
         /// <summary>
-        /// Control btnIngresarUsuario.
+        /// Control btnIngresar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnIngresarUsuario;
+        protected global::System.Web.UI.WebControls.Button btnIngresar;
     }
 }

@@ -9,7 +9,7 @@ namespace LoginAltaUsuario
         public enum TipoUusuario
         {
                 ADMIN =1,
-                NORMAL =2
+                TRAINEE =2
 
 
         }
@@ -47,7 +47,7 @@ namespace LoginAltaUsuario
 
                     usuario.Id = (int)accesoDatos.Lector["Id"];
                    
-                   usuario.tipousuario = (int) accesoDatos.Lector["TipoUsuario"] == 1 ? TipoUusuario.ADMIN : TipoUusuario.NORMAL;
+                   usuario.tipousuario = (int) accesoDatos.Lector["TipoUsuario"] == 1 ? TipoUusuario.ADMIN : TipoUusuario.TRAINEE;
 
 
                     return true;
@@ -71,6 +71,45 @@ namespace LoginAltaUsuario
 
            
 
+        }
+
+        public void IngresarUsuario(Usuario usuario) 
+        {
+
+            AccesoDatos accesoDatos = new AccesoDatos();
+
+
+
+            try
+            {
+
+                accesoDatos.setearConsulta(
+                    "insert into Usuarios (NombreUsuario, Password, Nombre, Email, TipoUsuario) " +
+                    "OUTPUT INSERTED.Id " +
+                    "values (@NombreUsuario, @Password, @Nombre, @Email, @TipoUsuario)"
+                );
+                accesoDatos.agregarParametro("@NombreUsuario", usuario.NombreUsuario);
+                accesoDatos.agregarParametro("@Password", usuario.Password);
+                accesoDatos.agregarParametro("@Nombre", usuario.Nombre);
+                accesoDatos.agregarParametro("@Email", usuario.Email);
+                accesoDatos.agregarParametro("@TipoUsuario", (int)usuario.tipousuario);
+
+                usuario.Id = (int)(accesoDatos.ejecutarScalar());
+
+               
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally { accesoDatos.cerrarConexion(); }
+         
+        
+        
         }
 
 

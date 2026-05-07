@@ -14,7 +14,7 @@ namespace LoginAltaUsuario
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=LoginBD; integrated security=true");
+            conexion = new SqlConnection("server=localhost\\SQLEXPRESS02; database=LoginBD; integrated security=true");
             comando = new SqlCommand();
         }
 
@@ -52,7 +52,11 @@ namespace LoginAltaUsuario
         {
             comando.Parameters.AddWithValue(nombre, valor);
         }
-
+        public object ejecutarScalar()
+        {
+            abrirConexion();
+            return comando.ExecuteScalar();
+        }
 
 
 
