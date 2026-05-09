@@ -11,6 +11,9 @@ namespace LoginAltaUsuario
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ////ACA SE LOGUEA EL USUARIO
+          
+
 
         }
 
@@ -32,17 +35,18 @@ namespace LoginAltaUsuario
 
                 if(usuario.tipousuario == TipoUusuario.ADMIN)
                 {
-                    Response.Redirect("Admin.aspx", false);
+                    
+                    Session["Usuario"] = usuario;
+                    Response.Redirect("Menu.aspx", false);
 
-                    Session.Add("Usuario", usuario);
 
                 }
 
                 else if(usuario.tipousuario == TipoUusuario.TRAINEE)
                 {
 
-
-                    Response.Redirect("Trainee.aspx",false);
+                    Session["Usuario"] = usuario;
+                    Response.Redirect("Menu.aspx",false);
 
                 }
                 

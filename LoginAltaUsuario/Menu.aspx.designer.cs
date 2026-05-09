@@ -11,61 +11,43 @@ namespace LoginAltaUsuario
 {
 
 
-    public partial class SiteMaster
+    public partial class Menu
     {
 
         /// <summary>
-        /// Control lnkInicio.
+        /// Control lblAministrador.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor lnkInicio;
+        protected global::System.Web.UI.WebControls.Label lblAministrador;
 
         /// <summary>
-        /// Control lnkAltaUsuario.
+        /// Control btnAdminitradorMenu.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor lnkAltaUsuario;
+        protected global::System.Web.UI.WebControls.Button btnAdminitradorMenu;
 
         /// <summary>
-        /// Control lnkAdministrador.
+        /// Control lblTrainee.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor lnkAdministrador;
+        protected global::System.Web.UI.WebControls.Label lblTrainee;
 
         /// <summary>
-        /// Control lnkTrainee.
+        /// Control btnDministradorMenu.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor lnkTrainee;
-
-        /// <summary>
-        /// Control LnkCerrarCeson.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor LnkCerrarCeson;
-
-        /// <summary>
-        /// Control MainContent.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Button btnDministradorMenu;
     }
 }

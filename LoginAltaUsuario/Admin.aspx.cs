@@ -10,7 +10,24 @@ namespace LoginAltaUsuario
     public partial class Admin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        { ////ACA ES LA PAGINA DE ADMINISTRADOR
+          /* if(!Seguridad.SessionActiva(Session["Usuario"]))
+            {
+
+                Response.Redirect("Login.aspx",false);
+
+            }*/
+
+
+
+        }
+
+        protected void btnPaginaTrainee_Click(object sender, EventArgs e)
         {
+
+
+
+
 
         }
     }

@@ -11,6 +11,16 @@ namespace LoginAltaUsuario
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ///ACA DOY DE ALTA EL USUARIO
+
+           if(! Seguridad.SessionActiva(Session["Usuario"]))
+            {
+
+                Response.Redirect("Login.aspx", false);
+                return;
+
+            }
+               
 
         }
 
