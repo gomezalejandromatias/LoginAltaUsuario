@@ -25,7 +25,7 @@ namespace LoginAltaUsuario
             try
             {
                 usuario.NombreUsuario = txtUsuario.Text;
-                usuario.Password = txtContraseña.Text;
+                usuario.Password = txtContrasena.Text;
                 if (!usuario.Loguear(usuario))
                 {
                     Response.Redirect("Error.aspx", false);

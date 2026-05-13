@@ -10,14 +10,14 @@ namespace LoginAltaUsuario
     public partial class Trainee : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {  ///////OAGINA DE TRAINEE
+        { /* ///////OAGINA DE TRAINEE
            if(!Seguridad.SessionActiva(Session["Usuario"]))
             {
 
                 Response.Redirect("Login.aspx", false);
                 return;
 
-            }
+            }*/
 
 
         }

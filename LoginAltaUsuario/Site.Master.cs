@@ -12,7 +12,12 @@ namespace LoginAltaUsuario
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-             
+
+            if (Page is RegistroUsuario)
+            {
+                MenuNavbar.Visible = false;
+                
+            }
 
             if (Session["Usuario"]!= null)
             {
@@ -29,6 +34,7 @@ namespace LoginAltaUsuario
 
 
             }
+
         }
 
         protected void LnkCerrarCeson_ServerClick(object sender, EventArgs e)
