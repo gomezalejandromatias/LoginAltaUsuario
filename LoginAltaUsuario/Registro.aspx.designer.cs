@@ -15,15 +15,6 @@ namespace LoginAltaUsuario
     {
 
         /// <summary>
-        /// Control form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
         /// Control txtNombre.
         /// </summary>
         /// <remarks>
@@ -60,13 +51,13 @@ namespace LoginAltaUsuario
         protected global::System.Web.UI.WebControls.TextBox txtContraseña;
 
         /// <summary>
-        /// Control lblUusuario.
+        /// Control lblUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUusuario;
+        protected global::System.Web.UI.WebControls.Label lblUsuario;
 
         /// <summary>
         /// Control ddlUsuario.

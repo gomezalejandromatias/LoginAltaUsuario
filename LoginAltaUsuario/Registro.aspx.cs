@@ -13,14 +13,14 @@ namespace LoginAltaUsuario
         {
             ///ACA DOY DE ALTA EL USUARIO
 
-           if(! Seguridad.SessionActiva(Session["Usuario"]))
+          /* if(! Seguridad.SessionActiva(Session["Usuario"]))
             {
 
                 Response.Redirect("Login.aspx", false);
                 return;
 
             }
-               
+               */
 
         }
 

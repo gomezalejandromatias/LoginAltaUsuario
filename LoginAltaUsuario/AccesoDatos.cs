@@ -14,7 +14,8 @@ namespace LoginAltaUsuario
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=localhost\\SQLEXPRESS02; database=LoginBD; integrated security=true");
+           // conexion = new SqlConnection("server=localhost\\SQLEXPRESS02; database=LoginBD; integrated security=true");
+           conexion = new SqlConnection("Data Source=.;Initial Catalog=LoginBD;Integrated Security=True");
             comando = new SqlCommand();
         }
 
